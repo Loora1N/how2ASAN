@@ -16,4 +16,4 @@
 
 ## ASAN usage
 
-为了使用 AddressSanitizer，您需要使用 clang 和 -fsanitize=address 开关来编译和链接您的程序。
+为了使用 AddressSanitizer，您需要使用 `clang` 和 `-fsanitize=address` 开关来编译和链接您的程序。
