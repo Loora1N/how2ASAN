@@ -11,3 +11,9 @@
 - [global-buffer-overflow/global-buffer-underflow](https://link.zhihu.com/?target=https%3A//github.com/google/sanitizers/wiki/AddressSanitizerExampleGlobalOutOfBounds)
 - [Memory leaks](https://link.zhihu.com/?target=https%3A//github.com/google/sanitizers/wiki/AddressSanitizerLeakSanitizer)
 - [Initialization order bugs](https://link.zhihu.com/?target=https%3A//github.com/google/sanitizers/wiki/AddressSanitizerInitializationOrderFiasco)
+
+本仓库旨在辅助理解ASAN底层原理，仅供研究参考
+
+## ASAN usage
+
+为了使用 AddressSanitizer，您需要使用 clang 和 -fsanitize=address 开关来编译和链接您的程序。
